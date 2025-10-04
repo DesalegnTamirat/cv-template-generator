@@ -4,11 +4,13 @@ body {
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
-#form-section, #preview-section {
+#form-section,
+#preview-section {
   margin: 20px auto;
   max-width: 600px;
   padding: 20px;
@@ -23,7 +25,8 @@ form label {
   font-weight: bold;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 8px;
   margin-top: 4px;
@@ -45,4 +48,29 @@ form button:hover {
   background: #0056b3;
 }
 
+/* ==> Desalegn's css work ends <== */
+
+/* ---------------> Preview section */
+/* ==> Desalegn's css work starts <== */
+#cv-preview {
+  border: 1px solid #007bff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+#cv-preview h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+#cv-preview ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#cv-preview p {
+  margin: 5px 0;
+}
 /* ==> Desalegn's css work ends <== */
